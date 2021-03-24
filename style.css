@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#noteGenerator {
+    width: 500px;
+    height: 550px;
+    border: black solid 4px;
+    border-radius: 20%;
+    background-color:pink;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+}
+#input, #submit {
+    margin: 10px;
+}
+
+h3{
+    margin: 10%;
+}
+
+#input {
+    height: 20px;
+}
+
+#num{
+    border: solid black 3px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+#results {
+    margin: 0px;
+    font-size: xx-large;
+}
