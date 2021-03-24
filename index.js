@@ -16,7 +16,7 @@ submit.addEventListener('click', () => {
     const number = parseInt(n, 10);
     
     function random (arr, number) {
-        let result = new Array(number),
+        let result = new Array(Math.abs(number)),
             len = arr.length,
             taken = new Array(len);
         if(number > len || number < 0)
